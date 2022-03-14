@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#logo img {
+  /* position: absolute; */
+  width: 264px;
+  height: 85px;
+  left: 42px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* margin-top: 20px; */
+  font-family: "SF Pro Display";
+}
+
+#navbar ul li {
+  list-style: none;
+  display: inline-flex;
+  margin-top: 20px;
+  padding: 10px 40px 10px 40px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #383838;
+}
+
+.give {
+  border: 2px solid #ec1a11;
+  border-radius: 5px;
+  background-color: #ec1a11;
+  color: white !important;
+}
+#top-text {
+  /* position: absolute; */
+  width: 1512px;
+  height: 718px;
+  left: 0px;
+  top: 100px;
+  background: url(/winners/images/unsplash_3eSZaVlxsLw.jpg),
+    rgba(196, 196, 196, 0.5);
+  color: white;
+}
+
+#top-text {
+  /* position: absolute; */
+  font-family: "SF Pro Display";
+  font-style: normal;
+}
+#top-text h3 {
+  position: absolute;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  width: 1175px;
+  height: 214px;
+  left: 164px;
+  top: 385px;
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 107px;
+  text-align: center;
+}
+
+#top-text p {
+  position: absolute;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  width: 958px;
+  height: 80px;
+  left: 272px;
+  top: 618px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 80px;
+  text-align: center;
+}
+
+#worship > p {
+  font-family: "SF Pro Display";
+  font-style: italic;
+  text-align: center;
+  color: #000000;
+  font-weight: bolder;
+}
+.worship{
+    font-size: larger;
+}
+
+#worship h6{
+    text-align: center;
+}
+
+
