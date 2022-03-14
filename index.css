@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
+/* nav */
 #logo img {
-  /* position: absolute; */
   width: 264px;
   height: 85px;
   left: 42px;
@@ -15,7 +15,6 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  /* margin-top: 20px; */
   font-family: "SF Pro Display";
 }
 
@@ -39,8 +38,9 @@
   background-color: #ec1a11;
   color: white !important;
 }
+
+/* top */
 #top-text {
-  /* position: absolute; */
   width: 1512px;
   height: 718px;
   left: 0px;
@@ -51,7 +51,6 @@
 }
 
 #top-text {
-  /* position: absolute; */
   font-family: "SF Pro Display";
   font-style: normal;
 }
@@ -83,19 +82,184 @@
   text-align: center;
 }
 
+/* worship */
 #worship > p {
+  padding: 50px 0 50px 0;
   font-family: "SF Pro Display";
-  font-style: italic;
+  font-style: normal;
   text-align: center;
   color: #000000;
   font-weight: bolder;
-}
-.worship{
-    font-size: larger;
+  font-size: 48px;
 }
 
-#worship h6{
-    text-align: center;
+#worship h6 {
+  text-align: center;
+  padding: 10px;
+  font-family: "SF Pro Display";
+  font-size: 24px;
 }
 
+/* meetings */
+#meetings {
+  width: 100%;
+}
+#meetings h3 {
+  text-align: center;
+  color: #ec1a11;
+  font-size: 48px;
+  margin-top: 10px;
+}
+#grid-meetings {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: space-around;
+  width: 95%;
+  margin: 45px;
+}
+.grids {
+  padding: 40px 10px;
+  border: 1px solid #ec1a11;
+  border-radius: 20%;
+  background: rgba(236, 26, 17, 0.05);
+  height: 274px;
+  width: 273px;
+  box-sizing: border-box;
+}
 
+.grids h6 {
+  width: 192px;
+  height: 50px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  color: #383838;
+}
+.grids p {
+  width: 200px;
+  height: 109px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 40px;
+  color: #383838;
+}
+
+/* first time worshipper */
+#first {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+.worshipper {
+  padding: 0 80px;
+  width: 100%;
+}
+.worshipper h3 {
+  width: 492px;
+  height: 31px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+.worshipper p {
+  width: 621px;
+  height: 283px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #383838;
+  margin-bottom: 20px;
+}
+.worshipper button {
+  background-color: #ec1a11;
+  border-color: #ec1a11;
+  border-radius: 22px;
+  height: 70px;
+  width: 250px;
+  color: white;
+  padding: 25px 47px;
+}
+
+.img-worshipper img {
+  height: 450px;
+  width: 90%;
+}
+
+/* GAve your life to christ? */
+#repent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+.img-repent img {
+  height: 450px;
+  width: 100%;
+  padding: 0 80px;
+}
+.repenting {
+  padding: 0 80px 0 10px;
+  width: 100%;
+}
+.repenting h3 {
+  width: 90%;
+  height: 31px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+.repenting p {
+  width: 621px;
+  height: 283px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #383838;
+  margin-bottom: 20px;
+}
+
+.repenting button {
+  background-color: #ec1a11;
+  border-color: #ec1a11;
+  border-radius: 22px;
+  height: 70px;
+  width: 250px;
+  color: white;
+  padding: 25px 47px;
+}
+
+#pastor {
+  background: #fef4f3;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+.pastor-img img {
+  width: 90%;
+  height: 788px;
+  /* border-radius: 20px; */
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+  padding-left: 80px;
+}
