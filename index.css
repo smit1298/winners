@@ -188,7 +188,7 @@
   height: 70px;
   width: 250px;
   color: white;
-  padding: 25px 47px;
+  font-size: 26px;
 }
 
 .img-worshipper img {
@@ -196,7 +196,7 @@
   width: 90%;
 }
 
-/* GAve your life to christ? */
+/* Gave your life to christ? */
 #repent {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -242,7 +242,7 @@
   height: 70px;
   width: 250px;
   color: white;
-  padding: 25px 47px;
+  font-size: 26px;
 }
 
 #pastor {
@@ -252,14 +252,95 @@
   grid-template-columns: 50% 50%;
   padding-top: 20px;
   padding-bottom: 40px;
-  width: 100%;
 }
 .pastor-img img {
-  width: 90%;
+  width: 95%;
   height: 788px;
-  /* border-radius: 20px; */
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-radius: 100px 0 0 100px;
+  padding: 80px 0 80px 80px;
+}
+.meet {
+  width: 100%;
+  padding: 80px 80px 80px 0px;
+}
+.meet h3 {
+  height: 40px;
+  width: 60%;
+  font-size: 48px;
+  font-style: normal;
+  font-family: "SF Pro Display";
+  padding: 0 0 50px;
+}
+.meet p {
+  width: 60%;
+  line-height: 40px;
+  font-style: normal;
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-weight: 400;
+}
 
-  padding-left: 80px;
+/* media */
+#media {
+  width: 90%;
+  margin: 80px 0 80px 80px;
+}
+
+#media > h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 40px;
+  color: #ec1a11;
+}
+#media > p {
+  width: 1233px;
+  height: 120px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+#media-grid {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  padding: 50px 0 0 0;
+}
+
+.media-watch {
+  width: 100%;
+}
+.watch {
+  width: 100%;
+}
+.watch > h3 {
+  width: 582px;
+  height: 53px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 40px;
+}
+.watch > p{
+  width: 621px;
+height: 283px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+}
+.watch > button {
+  background-color: #ec1a11;
+  border-color: #ec1a11;
+  border-radius: 22px;
+  height: 70px;
+  width: 250px;
+  color: white;
+  font-size: 26px;
+  margin-top: 50px;
 }
