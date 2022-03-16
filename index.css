@@ -285,7 +285,19 @@
   width: 90%;
   margin: 80px 0 80px 80px;
 }
-
+.play {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+}
+.relate {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  top: 5000px;
+  left: 300px;
+}
 #media > h3 {
   font-family: "SF Pro Display";
   font-style: normal;
@@ -325,14 +337,14 @@
   font-size: 48px;
   line-height: 40px;
 }
-.watch > p{
+.watch > p {
   width: 621px;
-height: 283px;
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 40px;
+  height: 283px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
 }
 .watch > button {
   background-color: #ec1a11;
@@ -343,4 +355,144 @@ line-height: 40px;
   color: white;
   font-size: 26px;
   margin-top: 50px;
+}
+
+/* media grid */
+#media-grids {
+  background-color: #fef4f3;
+  width: 100%;
+  margin: 300px 0 0 0;
+  /* position: relative; */
+}
+
+#media-grid-each {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding: 100px 80px 30px 80px;
+  /* position: absolute; */
+  /* top: 100px; */
+}
+
+/* church */
+#church {
+  width: 90%;
+  margin: 80px 0 80px 80px;
+}
+.play {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+}
+.relate {
+  position: relative;
+}
+
+#church > h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 40px;
+  color: black;
+}
+#church > p {
+  width: 1233px;
+  height: 120px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+#church-join {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  padding: 50px 0 0 0;
+}
+
+.media-watch {
+  width: 100%;
+}
+.join {
+  width: 100%;
+}
+.join > h3 {
+  width: 582px;
+  height: 53px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 40px;
+}
+.join > p {
+  width: 621px;
+  height: 283px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+.join > button {
+  background-color: #fff;
+  border-color: #ec1a11;
+  border-radius: 22px;
+  height: 70px;
+  width: 250px;
+  color: black;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+#footer {
+  /* background-color: rgba(196, 196, 196, 0.06); */
+  background-color: rgba(224, 16, 16, 0.06);
+  width: 100%;
+  margin: 80px 0 0 0;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  width: 100%;
+  height: 180px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 45px;
+  padding:  30px 100px 0 80px;
+}
+
+.info {
+  width: 100%;
+  height: 180px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 45px;
+  padding:  30px 0px 0 0px;
+
+}
+
+.useful {
+  width: 100%;
+  height: 270px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 45px;
+  padding:  30px 20px 0 0px;
+
 }
