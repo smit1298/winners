@@ -50,7 +50,7 @@
   height: 718px;
   left: 0px;
   top: 100px;
-  background: url(/winners/images/unsplash_L3qUP8MpExc.jpg),
+  background: url(/winners/images/unsplash_k24rOBJ2D_0.jpg),
     rgba(196, 196, 196, 0.5);
   color: white;
 }
@@ -59,7 +59,7 @@
   font-family: "SF Pro Display";
   font-style: normal;
 }
-#top-text > h3 {
+#top-text h3 {
   position: absolute;
   font-family: "SF Pro Display";
   font-style: normal;
@@ -73,7 +73,7 @@
   text-align: center;
 }
 
-#top-text > p {
+#top-text p {
   position: absolute;
   font-family: "SF Pro Display";
   font-style: normal;
@@ -87,58 +87,80 @@
   text-align: center;
 }
 
-#hear > h4 {
-  padding: 40px 0 0 0;
-  height: 40px;
+/* meetings */
+#meetings {
+  width: 100%;
+}
+#meetings h3 {
   text-align: center;
-  font-family: "SF Pro Display";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 40px;
   color: #ec1a11;
+  font-size: 48px;
+  margin-top: 10px;
 }
 
-#hear > p {
-  padding: 60px 40px 0 40px;
+#meetings > p {
   text-align: center;
+  margin: 10px 80px;
+  height: 283px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 40px;
 }
 
-#form {
-  text-align: center;
+/* Gave your life to christ? */
+#repent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
 }
-#form label {
-  margin-left: -450px;
-  text-align: start;
+.img-repent img {
+  height: 450px;
+  width: 100%;
+  padding: 0 80px;
+}
+.repenting {
+  padding: 0 80px 0 10px;
+  width: 100%;
+}
+.repenting h3 {
+  width: 90%;
+  height: 31px;
   font-family: "SF Pro Display";
   font-style: normal;
-  /* font-weight: 600; */
-  font-size: 15px;
-  line-height: 40px;
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ec1a11;
 }
-
-#form input {
-  width: 500px;
-  height: 50px;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-#comment {
-  height: 200px !important;
-}
-
-.submit{
-  width: 200px !important;
-  background-color: #ec1a11;
+.repenting p {
+  width: 621px;
+  height: 283px;
   font-family: "SF Pro Display";
-  border: none !important;
-  color: white;
-  font-size: x-large;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #383838;
+  margin-bottom: 20px;
 }
 
+.repenting button {
+  background-color: #ec1a11;
+  border-color: #ec1a11;
+  border-radius: 22px;
+  height: 70px;
+  width: 250px;
+  color: white;
+  font-size: 26px;
+}
+
+#tithe > img {
+  margin: 40px 80px 40px 200px;
+}
 
 /* footer */
 #footer {
